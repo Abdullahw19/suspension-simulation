@@ -9,6 +9,27 @@ A MATLAB-based simulation tool for analysing the dynamic response of a quarter-c
 - Parameter sweep to analyse damping effects
 - Optimisation routine to identify the damping coefficient that minimises RMS acceleration
 
+## Example Output
+
+### Suspension Animation
+![Animation](results/suspension_animation.png)
+
+### Suspension Displacement
+![Displacement](results/displacement_plot.png)
+
+### Suspension Velocity
+![Velocity](results/velocity_plot.png)
+
+### Ride Comfort (Acceleration)
+![Acceleration](results/acceleration_plot.png)
+
+### Effect of Damping on Suspension
+![Damping Comparison](results/damping_comparison.png)
+
+### Optimising Damping Coefficient
+![Optimisation](results/optimisation_curve.png)
+
+
 ## Tech Stack
 - MATLAB (ODE45, vectorisation, function handles)
 - Numerical methods
